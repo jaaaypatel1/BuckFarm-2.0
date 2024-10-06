@@ -1,4 +1,4 @@
-[
+var userData = [
     {
         "fname":"Manasi",
         "lname": "Singh",
@@ -18,6 +18,8 @@
         "lname": "Sinha",
         "accType" : "Shopper",
         "email" : "shasi2028@gmail.com",
-        "pwd" : "sh2028#$" 
+        "pwd" : "hsi2039$" 
     }
-]
+];
+
+export default userData;
