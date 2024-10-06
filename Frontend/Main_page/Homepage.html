@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>Buckeye Farm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="HPStyleSheet.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Buckeye Farm</h1>
+</div>
+
+<div class ="navbar">
+    <button onclick = "Home()">Home</button>
+    <button onclick="Log_In()" class="right">Log In</button>
+
+    <script>
+        function Log_In() {
+            window.location.href = "../AccountFrontEnd/signInPage.html";
+        }
+        function Home(){
+            window.location.href = "Homepage.html";
+        }
+    </script>
+    
+    <div class="search-container">
+        <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="main">
+    <div class="text-content">
+    <h2><u>About Us</u></h2>
+    <p>Buckeye Farm is an online store that provide produce to people in need.
+       We take produce deemed "unfit" by grocery stores but are actually in good
+       condition, and sell it online. This helps with reducing food waste as well
+       as use it in a sustainable way. <br><br> Our overall mission is reduce food waste 
+       and provide another option to get food. Once you order on our website,
+       we will ship the food to your address between 2-3 days or a week, depending
+       on your location. </p>
+    <br>
+    <h2><u>Contact Us</u></h2>
+    <p>We are avaliable from 9-5 pm at this number: <br> 
+       XXX-XXX-XXXX <br><br>
+       And at this email: <br>
+       buckeyefarm@gmail.com</p>
+    </div>
+    <img src="produce.jpg" alt="Produce with vegetables" width="550" height="350">
+</div>
+
+<div class="footer">
+    <h2>Fresh Produce, Reduce Food Wastage!</h2>
+  </div>
+    
+</body>
+</html>
