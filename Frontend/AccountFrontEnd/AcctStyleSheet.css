@@ -9,38 +9,47 @@
     animation: colorChange 5s infinite alternate; 
 }
 
+
 .navbar {
-    padding: 25px;
+    padding: 10px;
     position: relative;
     top: -100px;
     background-color: black;
+    justify-content: space-between;
+    border-radius: 5px;
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+.right {
+    float: right; 
     position: relative;
-    top: -10px;
+    left: -10px;
 }
 
-.navbar a.right {
-    float: right;
+button {
+    background-color: #189ba7; 
+    color: white; 
+    padding: 15px 32px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
+.buttons {
+    position: relative;
+    top:17px;
+}
+
+button:hover {
+    background-color: #45a049; 
 }
 
 .search-container{
     color:white;
     position: relative;
-    left: 320px;
-    top:-3px;
+    left: 480px;
+    top:-30px;
 }
 
 .search-container input[type="text"] {
@@ -67,10 +76,28 @@ body {
     background-color: bisque;
 }
 
-@keyframes colorChange {
-    0% { background-color: #e46363; }
-    50% { background-color: #75dfb6; }
-    100% { background-color: #ca6cd8; }
+.main{
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px;
+    background-color: rgb(187, 176, 176);
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: relative;
+    top:-65px;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px; 
+    position: relative;
+    top: -5px;
+}
+
+.text-content img {
+    width: 100%; 
+    height: auto; 
 }
 
 .footer {
@@ -78,9 +105,21 @@ body {
     text-align: center;
     background: #000000;
     color: white;
+    border-radius: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: relative;
-    bottom:-150px;
+}
+
+.produce-image {
+    width: 100%; 
+    max-width: 550px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+@keyframes colorChange {
+    0% { background-color: #e46363; }
+    50% { background-color: #75dfb6; }
+    100% { background-color: #ca6cd8; }
 }
 
 .login {
