@@ -1,29 +1,29 @@
 [
     {
+      "model": "farm.product",
+      "pk": 1,
+      "fields": {
         "name": "Fresh Tomatoes",
         "description": "Organic and fresh tomatoes.",
         "price": 3.99,
         "quantity": 100,
         "zip": 12345,
-        "dateHarvested": "20231006",
+        "dateHarvested": "2023-10-06",
         "businessName": "Tomato Farm"
+      }
     },
     {
+      "model": "farm.product",
+      "pk": 2,
+      "fields": {
         "name": "Organic Apples",
         "description": "Fresh apples harvested this season.",
         "price": 5.50,
         "quantity": 50,
         "zip": 67890,
-        "dateHarvested": "20231005",
+        "dateHarvested": "2023-10-05",
         "businessName": "Apple Orchard"
-    },
-    {
-        "name": "Cucumbers",
-        "description": "Crisp cucumbers, perfect for salads.",
-        "price": 1.50,
-        "quantity": 200,
-        "zip": 23456,
-        "dateHarvested": "20231004",
-        "businessName": "Cucumber Farm"
+      }
     }
-]
+  ]
+  

@@ -8,7 +8,6 @@
 <body>
     <h1>Products</h1>
     <ul>
-        {% for product in products %}
             <li>
                 <strong>{{ product.name }}</strong><br>
                 {{ product.description }}<br>
@@ -18,9 +17,8 @@
                 Business: {{ product.businessName }}<br>
                 Zip Code: {{ product.zip }}<br>
             </li>
-        {% empty %}
             <li>No products available.</li>
-        {% endfor %}
+
     </ul>
 </body>
 </html>
