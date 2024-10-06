@@ -67,26 +67,10 @@ body {
     background-color: bisque;
 }
 
-.main{
-    position: relative;
-    top: -70px;
-    font-size: 18px;
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    margin: 0 20px;
-}
-
-.text-content {
-    flex: 1;
-    margin-right: 20px; 
-    position: relative;
-    top: -65px;
-}
-
-.text-content img {
-    width: 100%; 
-    height: auto; 
+@keyframes colorChange {
+    0% { background-color: #e46363; }
+    50% { background-color: #75dfb6; }
+    100% { background-color: #ca6cd8; }
 }
 
 .footer {
@@ -95,10 +79,26 @@ body {
     background: #000000;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    bottom:-150px;
 }
 
-@keyframes colorChange {
-    0% { background-color: #e46363; }
-    50% { background-color: #75dfb6; }
-    100% { background-color: #ca6cd8; }
+.login {
+   text-align: center; 
+   position: relative;
+   top:-20px;
+   font-size: 20px;
+   background-color: rgb(161, 158, 158);
+   background-size: 5px;
+   padding: 5px;
+}
+
+.create {
+    text-align: center;
+    position: relative;
+    top:-20px;
+    font-size: 20px;
+    background-color: rgb(161, 158, 158);
+    background-size: 5px;
+    padding: 5px;
 }
