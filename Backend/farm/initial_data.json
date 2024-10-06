@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Tomato",
+        "description": "Fresh tomatoes harvested from local farms, ripe and juicy.",
+        "price": 1.99,
+        "quantity": 100,
+        "zip_code": 12345,
+        "date_harvested": "2024-10-01",
+        "business_name": "Local Farm Co."
+    },
+    {
+        "name": "Cucumber",
+        "description": "Crisp cucumbers grown organically in our garden.",
+        "price": 0.99,
+        "quantity": 200,
+        "zip_code": 54321,
+        "date_harvested": "2024-10-02",
+        "business_name": "Organic Growers Inc."
+    },
+    {
+        "name": "Bell Pepper",
+        "description": "Vibrant bell peppers, perfect for salads or grilling.",
+        "price": 2.50,
+        "quantity": 150,
+        "zip_code": 67890,
+        "date_harvested": "2024-10-03",
+        "business_name": "Fresh Produce Market"
+    }
+]
