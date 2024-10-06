@@ -14,6 +14,8 @@
         text-align: center;
         position:relative;
         top:-50px;
+        background-color: rgb(222, 235, 194);
+        animation: colorChange 5s infinite alternate; 
     }
 
     .navbar {
@@ -76,8 +78,38 @@
 
     .main{
         position: relative;
-        top:-70px;
+        top: -70px;
         font-size: 18px;
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between; 
+        margin: 0 20px;
+    }
+
+    .text-content {
+        flex: 1;
+        margin-right: 20px; 
+        position: relative;
+        top: -65px;
+    }
+
+    .text-content img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .footer {
+        padding: 1px;
+        text-align: center;
+        background: #000000;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    @keyframes colorChange {
+        0% { background-color: #e46363; }
+        50% { background-color: #75dfb6; }
+        100% { background-color: #ca6cd8; }
     }
 
 </style>
@@ -102,17 +134,22 @@
 </div>
 
 <div class="main">
+    <div class="text-content">
     <h2><u>About Us</u></h2>
     <p>Buckeye Farm is an online store that provide produce to people in need.
-       We take produce <br> deemed "unfit" by grocery stores but are actually in good
-       condition, and sell it online. <br> This helps with reducing food waste as well
-       as use it in a sustainable way. <br><br> Our overall mission is reduce food
-       waste and provide another option to get food. <br> Once you order on our website,
-       we will ship the food to your address between 2-3 days or <br> a week, depending
-       on your location.
-    </p>
-    <img src="https://pxhere.com/en/photo/147261" alt="Produce">
+       We take produce deemed "unfit" by grocery stores but are actually in good
+       condition, and sell it online. This helps with reducing food waste as well
+       as use it in a sustainable way. <br><br> Our overall mission is reduce food waste 
+       and provide another option to get food. Once you order on our website,
+       we will ship the food to your address between 2-3 days or a week, depending
+       on your location. </p>
+    </div>
+    <img src="produce.jpg" alt="Produce with vegetables" width="550" height="350">
 </div>
+
+<div class="footer">
+    <h2>Fresh Produce, Reduce Food Wastage!</h2>
+  </div>
     
 </body>
 </html>
